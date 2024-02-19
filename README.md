@@ -11,3 +11,4 @@
 | 3   | 2/18 | [Question_153_a](https://atcoder.jp/contests/abc153/tasks/abc153_a) | [Answer_153_a](https://github.com/Jun-Araki/atcoder/blob/main/153_a.rb) | [Explanation_153_a](https://github.com/Jun-Araki/atcoder/issues/3) |
 | 4   | 2/18 | [Question_165_a](https://atcoder.jp/contests/abc165/tasks/abc165_a) | [Answer_165_a](https://github.com/Jun-Araki/atcoder/blob/main/165_a.rb) | [Explanation_165_a](https://github.com/Jun-Araki/atcoder/issues/4) |
 | 5   | 2/18 | [Question_083_b](https://atcoder.jp/contests/abc083/tasks/abc083_b) | [Answer_083_b](https://github.com/Jun-Araki/atcoder/blob/main/083_b.rb) | [Explanation_083_b](https://github.com/Jun-Araki/atcoder/issues/5) |
+| 6   | 2/20 | [Question_081_b](https://atcoder.jp/contests/abc081/tasks/abc081_b) | [Answer_081_b](https://github.com/Jun-Araki/atcoder/blob/main/081_b.rb) | [Explanation_081_b](https://github.com/Jun-Araki/atcoder/issues/6) |
