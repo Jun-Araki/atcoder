@@ -1,11 +1,11 @@
 _ = gets.to_i
 a = gets.split.map(&:to_i)
 
-numbers = a.sort.reverse
 result = 0
+a.sort!.reverse!
 
-numbers.each_with_index do |n, i|
-  if i % 2 == 0
+a.each_with_index do |n, i|
+  if i.even?
     result += n
   else
     result -= n
