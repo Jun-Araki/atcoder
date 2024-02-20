@@ -1,15 +1,15 @@
 _ = gets.to_i
 a = gets.split.map(&:to_i)
 
-result = 0
+alice, bob = [0, 0]
 a.sort!.reverse!
 
-a.each_with_index do |n, i|
-  if i.even?
-    result += n
+a.each.with_index(1) do |n, i|
+  if i.odd?
+    alice += n
   else
-    result -= n
+    bob += n
   end
 end
 
-puts result
+puts alice - bob
