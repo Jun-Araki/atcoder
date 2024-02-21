@@ -5,12 +5,11 @@ X = gets.to_i
 
 result = 0
 
-for a in 0..A do
-  for b in 0..B do
-    for c in 0..C do
-      if 500 * a + 100 * b + 50 * c == X
-        result += 1
-      end
+0.upto(A) do |a|
+  0.upto(B) do |b|
+    0.upto(C) do |c|
+      total = 500 * a + 100 * b + 50 * c
+      result += 1 if total == X
     end
   end
 end
