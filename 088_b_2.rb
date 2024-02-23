@@ -1,14 +1,15 @@
-N = gets.to_i
+n = gets.to_i
 array = gets.split.map(&:to_i)
 
-array.sort!.reverse!
-alice, bob = [0, 0]
+array.sort!
+alice = 0
+bob = 0
 
-array.each.with_index(1) do |n, i|
-  if i.odd?
-    alice += n
+n.times do |i|
+  if i.even?
+    alice += array.pop
   else
-    bob += n
+    bob += array.pop
   end
 end
 
